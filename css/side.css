@@ -1,0 +1,52 @@
+/* GENERAL -------------------------------------- */
+.navbar{
+  display: flex;
+  /* background: rgba(0,0,0,.8); */
+  width: 230px;
+  height: 100vh; /* DEBUG:  */
+  background: red; /* DEBUG:  */
+}
+
+.colonna-lg{
+  display: flex;
+}
+.colonna-xs{
+  display: flex;
+}
+
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+.colonna-xs {
+  display: none;
+}
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+  .colonna-xs {
+    display: none;
+  }
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .colonna-xs {
+    display: none;
+  }
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+.colonna-lg{
+    display: none;
+  }
+  .navbar{
+    width: 50px;
+  }
+
+}
