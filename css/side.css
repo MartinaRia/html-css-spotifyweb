@@ -3,13 +3,12 @@
   position: fixed;
   width: 230px;
   flex-wrap: wrap;
-  flex-direction: column;
   height: 100vh;
   background: rgba(0,0,0,.8);
 }
 
 .logo-lg{
-  width: 131px;
+  width: 131px !important;
   height: 40px;
   padding: 10px 0px 10px 20px;
 }
@@ -19,7 +18,11 @@
 .navbar .colonna{
   height: calc(100% - 90px);
   width: 100%;
-  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.colonna *{
+  width: 100%;
 }
 
 .bottoni-menu-nav{
@@ -59,14 +62,51 @@
   margin-right:16px;
   padding: 8px;
 }
+#down{
+  width: 10px;
+  height: 10px;
+  margin-right:16px;
+  padding: 2px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.playlist{
+  flex-wrap: wrap;
+}
 
 .playlist-list{
-  overflow: auto;
-  height: 50%;
+  overflow: scroll;
+  max-height: 20vh;
 }
 .playlist-list::-webkit-scrollbar {
 display: none;
 }
+
+.installa-app{
+  font-weight: normal;
+  font-size: 12px;
+  border-bottom: 0.5px solid lightgrey;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  width: calc(100% - 40px)
+}
+
+
+
+.icona-account{
+  background: lightgray;
+  border-radius: 100%;
+}
+
+.riga-account{
+  padding: 10px 20px;
+}
+
+.account{
+  align-self: flex-end;
+}
+
+
 
 
 
