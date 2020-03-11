@@ -16,31 +16,68 @@
 
   <body>
     <header>
-      <div class="sticky-header">
+      <div class="sticky-header flex-container">
         <button type="button" name="button">EFFETTUA L'UPGRADE</button>
       </div>
     </header>
 
-    <aside class="navbar">
-      <!-- menu largo desktop -->
-      <div class="colonna colonna-lg">
-        <img class="logo logo-lg" src="img/logo.svg" alt="">
-        <div class="menu menu-lg">
+    <aside class="navbar flex-container">
 
+      <!-- menu largo desktop -->
+      <div class="colonna flex-container colonna-lg">
+        <!-- LOGO -->
+        <img class="logo logo-lg" src="img/logo.svg" alt="">
+        <!-- MENU -->
+        <div class="menu menu-lg">
+          <!-- home -->
+          <div tabindex="0" class="bottoni-menu-nav flex-container">
+            <img src="img/home.svg" alt="">
+            <h4>Home</h4>
+          </div>
+          <!-- cerca -->
+          <div tabindex="0" class="bottoni-menu-nav flex-container">
+            <img src="img/search.svg" alt="">
+            <h4>Cerca</h4>
+          </div>
+          <!-- la tua libreria -->
+          <div tabindex="0" class="bottoni-menu-nav flex-container">
+            <img src="img/libreria.svg" alt="">
+            <h4>La tua libreria</h4>
+          </div>
         </div>
+      </div>
+        <!-- PLAYLIST -->
         <div class="playlist playlist-lg">
 
         </div>
+        <!-- ACCOUNT -->
         <div class="account account-lg">
 
         </div>
       </div>
-      <!-- menu stretto mobile -->
-      <div class="colonna colonna-xs">
-        <img class="logo logo-xs" src="" alt="">
-        <div class="menu menu-xs">
 
+
+      <!-- menu stretto mobile -->
+      <div class="colonna flex-container colonna-xs">
+        <!-- LOGO -->
+        <img class="logo logo-xs" src="" alt="">
+        <!-- MENU -->
+        <div class="menu menu-xs">
+          <!-- home -->
+          <div class="bottoni-menu-nav flex-container">
+            <div class="icona-bottone"><img src="img/home.svg" alt=""></div>
+            <div class="titolo-bottone"><h5>Home</h5></div>
+          </div>
+          <!-- cerca -->
+          <div class="bottoni-menu-nav flex-container">
+
+          </div>
+          <!-- la tua libreria -->
+          <div class="bottoni-menu-nav flex-container">
+
+          </div>
         </div>
+        <!-- ACCOUNT -->
         <div class="account account-xs">
 
         </div>

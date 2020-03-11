@@ -1,24 +1,54 @@
 /* GENERAL -------------------------------------- */
 .navbar{
   position: fixed;
-  display: flex;
   width: 230px;
   flex-wrap: wrap;
+  flex-direction: column;
   height: 100vh;
   background: rgba(0,0,0,.8);
-}
-.navbar .colonna{
-  display: flex;
-  height: calc(100% - 90px);
-  width: 100%;
 }
 
 .logo-lg{
   width: 131px;
   height: 40px;
-  margin: 0 auto;
+  margin: 0 27px;
   padding: 10px 0px;
+  margin-bottom: 20px;
 }
+
+.navbar .colonna{
+  height: calc(100% - 90px);
+  width: 100%;
+  flex-direction: column;
+}
+
+.bottoni-menu-nav{
+  padding: 6px 16px;
+  margin: 0 8px;
+  align-items: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.bottoni-menu-nav:hover{
+  color: white;
+  opacity: 1;
+}
+.bottoni-menu-nav:focus{
+  border-left: 2px yellow solid;
+  opacity: 1;
+  outline: none;
+}
+
+.bottoni-menu-nav img{
+  width: 24px;
+  height: 24px;
+  margin-right:16px;
+}
+.menu-lg h4{
+  font-size: 14px;
+}
+
+
 
 
 

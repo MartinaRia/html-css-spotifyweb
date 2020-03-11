@@ -34,7 +34,9 @@ body{
 
 /* GENERAL -------------------------------------- */
 
-
+.flex-container{
+  display: flex
+}
 
 
 /* MAXI DESKTOP -------------------------------- */
