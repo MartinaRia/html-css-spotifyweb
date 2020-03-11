@@ -80,15 +80,6 @@
             <div class="bottone-playlist bottoni-menu-nav flex-container">
               <h5>Nome Playlist</h5>
             </div>
-            <div class="bottone-playlist bottoni-menu-nav flex-container">
-              <h5>Nome Playlist</h5>
-            </div>
-            <div class="bottone-playlist bottoni-menu-nav flex-container">
-              <h5>Nome Playlist</h5>
-            </div>
-            <div class="bottone-playlist bottoni-menu-nav flex-container">
-              <h5>Nome Playlist</h5>
-            </div>
           </div>
 
         </div>
@@ -103,34 +94,43 @@
             <h4>John Doe</h4>
           </div>
         </div>
-
-      </div>
+      </div> <!-- / menu largo desktop -->
 
 
       <!-- menu stretto mobile -->
       <div class="colonna flex-container colonna-xs">
-        <!-- LOGO -->
-        <img class="logo logo-xs" src="" alt="">
-        <!-- MENU -->
-        <div class="menu menu-xs">
+        <div class="top">
+          <!-- LOGO -->
+          <div class="bottoni-menu-nav-xs flex-container">
+            <img class="logo logo-xs icona" src="IMG/logo-small.svg" alt="">
+          </div>
+          <!-- MENU -->
           <!-- home -->
-          <div class="bottoni-menu-nav flex-container">
-            <div class="icona-bottone"><img src="img/home.svg" alt=""></div>
-            <div class="titolo-bottone"><h5>Home</h5></div>
+          <div tabindex="0" class="bottoni-menu-nav-xs flex-container">
+            <img class="icona" src="img/home.svg" alt="">
           </div>
           <!-- cerca -->
-          <div class="bottoni-menu-nav flex-container">
-
+          <div tabindex="0" class="bottoni-menu-nav-xs flex-container">
+            <img class="icona" src="img/search.svg" alt="">
           </div>
           <!-- la tua libreria -->
-          <div class="bottoni-menu-nav flex-container">
-
+          <div tabindex="0" class="bottoni-menu-nav-xs flex-container">
+            <img class="icona" src="img/libreria.svg" alt="">
           </div>
         </div>
-        <!-- ACCOUNT -->
-        <div class="account account-xs">
 
+        <!-- ACCOUNT -->
+        <div class="bottom">
+          <div class="account account-xs">
+            <div class="installa-app-xs bottone-playlist bottoni-menu-nav-xs flex-container">
+              <img id="down-xs" src="img/down.png" alt="">
+            </div>
+            <div class="bottoni-menu-nav-xs flex-container">
+              <img class="icona icona-account icona-acc-xs" src="img/profile.svg" alt="">
+            </div>
+          </div>
         </div>
+
       </div>
     </aside>
 

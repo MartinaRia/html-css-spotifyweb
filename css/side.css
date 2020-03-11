@@ -1,4 +1,4 @@
-/* GENERAL -------------------------------------- */
+/* GENERAL LG -------------------------------------- */
 .navbar{
   position: fixed;
   width: 230px;
@@ -81,7 +81,6 @@
 .playlist-list::-webkit-scrollbar {
 display: none;
 }
-
 .installa-app{
   font-weight: normal;
   font-size: 12px;
@@ -90,8 +89,6 @@ display: none;
   padding: 10px 0px;
   width: calc(100% - 40px)
 }
-
-
 
 .icona-account{
   background: lightgray;
@@ -104,6 +101,37 @@ display: none;
 
 .account{
   align-self: flex-end;
+}
+
+/* GENERAL XS -------------------------------------- */
+.colonna-xs{
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottoni-menu-nav-xs .icona{
+  padding: 4px 0;
+  width: 24px;
+  height: 24px;
+}
+.logo-xs{
+  margin: 5px 0;
+}
+.bottoni-menu-nav-xs {
+    justify-content: center;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.bottoni-menu-nav-xs .icona-acc-xs{
+  padding: 0px;
+  margin: 20px 0px 10px 0px;
+}
+#down-xs{
+  width: 10px;
+  height: 10px;
+  margin-right:0px;
+  padding: 2px;
+  border-radius: 100%;
+  border: 1px solid white;
 }
 
 
