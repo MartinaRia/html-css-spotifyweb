@@ -6,8 +6,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background: #0b0b0b7d;
-  border-bottom: 1px white solid; /* DEBUG:  */
+  background: #0b0b0beb;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -63,6 +62,8 @@
 
 /* MOBILE --------------------------------- */
 @media screen and (max-width: 767px) {
-
+  .sticky-header{
+    width: calc(100% - 50px);
+  }
 
 }

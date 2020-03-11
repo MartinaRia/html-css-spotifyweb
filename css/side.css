@@ -1,17 +1,23 @@
 /* GENERAL -------------------------------------- */
 .navbar{
+  position: fixed;
   display: flex;
-  /* background: rgba(0,0,0,.8); */
   width: 230px;
-  height: 100vh; /* DEBUG:  */
-  background: red; /* DEBUG:  */
+  flex-wrap: wrap;
+  height: 100vh;
+  background: rgba(0,0,0,.8);
+}
+.navbar .colonna{
+  display: flex;
+  height: calc(100% - 90px);
+  width: 100%;
 }
 
-.colonna-lg{
-  display: flex;
-}
-.colonna-xs{
-  display: flex;
+.logo-lg{
+  width: 131px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px 0px;
 }
 
 

@@ -1,40 +1,16 @@
-@font-face {
-    font-family: 'Circular';
-    src: url('../font/Circular-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Circular';
-    src: url('../font/Circular-Book.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Circular';
-    src: url('../font/Circular-Bold.ttf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-
-/* body --------------------------------------- */
-
-body{
-  background-color: black;
-  font-family: "Circular";
-  font-weight: normal;
-  color: white;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
 /* GENERAL -------------------------------------- */
 
-
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  height: 90px;
+  padding: 0 16px;
+  background-color: #282828;
+  /* border-top: 1px solid #000; */
+  color: green;
+}
 
 
 /* MAXI DESKTOP -------------------------------- */
