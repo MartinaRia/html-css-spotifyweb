@@ -39,7 +39,7 @@
   outline: none;
 }
 
-.bottoni-menu-nav img{
+.bottoni-menu-nav .icona{
   width: 24px;
   height: 24px;
   margin-right:16px;
@@ -48,13 +48,25 @@
   font-size: 14px;
 }
 
-.playlist h4{
+.titolo-playlist{
   padding-left: 20px;
 }
 
+#plus{
+  width: 16px;
+  height: 16px;
+  background: lightgrey;
+  margin-right:16px;
+  padding: 8px;
+}
 
-
-
+.playlist-list{
+  overflow: auto;
+  height: 50%;
+}
+.playlist-list::-webkit-scrollbar {
+display: none;
+}
 
 
 
