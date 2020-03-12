@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- favicon -->
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+    <!-- fontawasome -->
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
     <title>Spotify Web by Martina</title>
   </head>
 
@@ -150,42 +152,52 @@
       <div class="left f-col flex-container">
         <div class="brano flex-container">
           <img src="img/sinister.jpeg" alt="sinister cover">
-          <div class="features-brano">
+          <div class="features-brano flex-container">
             <h5>Sinister</h5>
             <p>Brano Nome</p>
           </div>
         </div>
         <!-- icone love+cartella -->
         <div class="">
-          cuore
-          cartella
+          <i class="far fa-heart"></i>
+          <i class="far fa-folder"></i>
         </div>
       </div>
 
 
 
-      <div class="center f-col flex-container">
-        <div class="">
-          shuffle
-          previous
-          play
-          next
-          repeat
-        </div>
-        <div class="contatore flex-container">
-          <h6>min:sec</h6>
-          looooooooooooooooooooooooooong
-          <h6>min:sec</h6>
-        </div>
+      <div class="center f-col">
+        <!-- <div class="centratura"> -->
+          <div class="riga-btns flex-container">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-play"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-step-forward"></i>
+          </div>
+          <div class="contatore flex-container">
+            <div class="">
+              <h6>0:25</h6>
+            </div>
+            <div class="progressbar">
+              <div class="progresinside"></div>
+            </div>
+            <div class="">
+              <h6>4:35</h6>
+            </div>
+          </div>
+        <!-- </div> -->
       </div>
 
 
 
       <div class="right f-col flex-container">
-        icona
-        teli
-        audio
-        looooooooooong stuf
+        <i class="fas fa-list-ul"></i>
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-volume-up"></i>
+        <div class="progressbar">
+          <div class="progresinside"></div>
+        </div>
       </div>
     </footer>
 
