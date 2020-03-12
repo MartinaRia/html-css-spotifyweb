@@ -136,7 +136,13 @@ display: none;
   border: 1px solid white;
 }
 
+/* MAXI HEIGHT 350PX -------------------------------- */
+@media screen and (max-height: 350px){
+ .bottom{
+   display: none;
+ }
 
+}
 
 
 
