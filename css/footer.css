@@ -28,7 +28,7 @@ footer h5{
 }
 
 .left img{
-  max-width 50px;
+  max-width: 50px;
   max-height: 50px;
   padding-left: 20px
 }
@@ -153,5 +153,14 @@ footer h5{
   .f-col{
     transform: scale(0.8,0.8);
   }
-  
+  .left img{
+    max-width: 30px;
+    max-height: 30px;
+    padding-left: 10px
+  }
+  .riga-btns .fas{
+    padding: 10px 10px;
+    opacity: 0.7;
+  }
+
 }
