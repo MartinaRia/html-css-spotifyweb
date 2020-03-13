@@ -11,6 +11,38 @@ main{
   padding-top: 60px;
 }
 
+.generi ul{
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.generi a{
+ padding: 25px 25px 5px 25px;
+ opacity: 0.7;
+ cursor: pointer;
+ text-decoration: none;
+ color: white;font-weight: normal;
+}
+.generi li{
+  flex-direction: column;
+  align-items: center;
+}
+.generi hr{
+  width: 30%;
+  border: 1px solid yellow;
+  display: none;
+}
+.generi a:hover hr{
+  display: block;
+}
+.generi a:focus hr{
+  display: block;
+}
+.generi h5{
+  font-weight: normal;
+}
+
 
 /* MAXI DESKTOP -------------------------------- */
 @media screen and (min-width: 1200px){
