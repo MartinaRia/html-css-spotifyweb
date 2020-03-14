@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Circular';
+    src: url('../font/Circular-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular';
+    src: url('../font/Circular-Book.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular';
+    src: url('../font/Circular-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* body --------------------------------------- */
+
+body{
+  background: #121212;
+  font-family: "Circular";
+  font-weight: normal;
+  color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL -------------------------------------- */
+
+.flex-container{
+  display: flex
+}
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+
+
+}

@@ -1,0 +1,68 @@
+/* GENERAL -------------------------------------- */
+
+.sticky-header{
+  width: calc(100% - 230px);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #0b0b0beb;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sticky-header button{
+ background-color: transparent;
+ border: 2px solid white;
+ color: white;
+ border-radius: 500px;
+ padding: 10px 34px;
+ font-family: inherit;
+ font-weight: bold;
+ margin-right: 10px;
+ font-size: 12px;
+ letter-spacing: 1.76px;
+ cursor: pointer;
+}
+.sticky-header button:hover{
+  transform: scale(1.06);
+}
+
+
+
+
+
+/* MAXI HEIGHT 350PX -------------------------------- */
+@media screen and (max-height: 350px){
+ .sticky-header{
+   display: none;
+ }
+
+}
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+  .sticky-header{
+    width: calc(100% - 50px);
+  }
+
+}

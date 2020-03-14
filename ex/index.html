@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/side.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+    <!-- fontawasome -->
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <title>Spotify Web by Martina</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="sticky-header flex-container">
+        <button type="button" name="button">EFFETTUA L'UPGRADE</button>
+      </div>
+    </header>
+
+    <aside class="navbar flex-container">
+      <!-- menu largo desktop -->
+      <div class="colonna flex-container colonna-lg">
+        <div class="colonna-up flex-container">
+          <!-- LOGO -->
+          <img class="logo logo-lg" src="img/logo.svg" alt="">
+          <!-- MENU -->
+          <div class="menu menu-lg">
+            <!-- home -->
+            <div tabindex="0" class="bottoni-menu-nav flex-container">
+              <img class="icona" src="img/home.svg" alt="">
+              <h4>Home</h4>
+            </div>
+            <!-- cerca -->
+            <div tabindex="0" class="bottoni-menu-nav flex-container">
+              <img class="icona" src="img/search.svg" alt="">
+              <h4>Cerca</h4>
+            </div>
+            <!-- la tua libreria -->
+            <div tabindex="0" class="bottoni-menu-nav flex-container">
+              <img class="icona" src="img/libreria.svg" alt="">
+              <h4>La tua libreria</h4>
+            </div>
+          </div> <!-- /menu-lg -->
+
+          <!-- PLAYLIST -->
+          <div class="playlist playlist-lg">
+            <h4 class="titolo-playlist">PLAYLIST</h4>
+            <div class="bottone-playlist bottoni-menu-nav flex-container">
+              <img id="plus" src="img/more.png" alt="">
+              <h4>Crea Playlist</h4>
+            </div>
+            <div class="playlist-list">
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+              <div class="bottone-playlist bottoni-menu-nav flex-container">
+                <h5>Nome Playlist</h5>
+              </div>
+            </div>
+          </div> <!-- /playlist-lg -->
+
+        </div> <!--/ colonna up -->
+
+        <!-- ACCOUNT -->
+        <div class="colonna-down account account-lg">
+          <div class="installa-app bottone-playlist bottoni-menu-nav flex-container">
+            <img id="down" src="img/down.png" alt="">
+            <p>Installa app</p>
+          </div>
+          <div tabindex="0" class="riga-account bottoni-menu-nav flex-container">
+            <img class="icona icona-account" src="img/profile.svg" alt="">
+            <h4>John Doe</h4>
+          </div>
+        </div>
+
+      </div> <!-- / menu largo desktop -->
+
+
+      <!-- menu stretto mobile -->
+      <div class="colonna flex-container colonna-xs">
+        <div class="top">
+          <!-- LOGO -->
+          <div class="bottoni-menu-nav-xs flex-container">
+            <img class="logo logo-xs icona" src="IMG/logo-small.svg" alt="">
+          </div>
+          <!-- MENU -->
+          <!-- home -->
+          <div tabindex="0" class="bottoni-menu-nav-xs flex-container">
+            <img class="icona" src="img/home.svg" alt="">
+          </div>
+          <!-- cerca -->
+          <div tabindex="0" class="bottoni-menu-nav-xs flex-container">
+            <img class="icona" src="img/search.svg" alt="">
+          </div>
+          <!-- la tua libreria -->
+          <div tabindex="0" class="bottoni-menu-nav-xs flex-container">
+            <img class="icona" src="img/libreria.svg" alt="">
+          </div>
+        </div>
+
+        <!-- ACCOUNT -->
+        <div class="bottom">
+          <div class="account account-xs">
+            <div class="installa-app-xs bottone-playlist bottoni-menu-nav-xs flex-container">
+              <img id="down-xs" src="img/down.png" alt="">
+            </div>
+            <div class="bottoni-menu-nav-xs flex-container">
+              <img class="icona icona-account icona-acc-xs" src="img/profile.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+
+    <main>
+      <div class="body-of-main">
+
+      <!-- NAVBAR GENERI -->
+        <div class="generi flex-container">
+          <ul class="flex-container">
+            <a href="#"><li class="flex-container"><h5>IN EVIDENZA</h5><hr></li></a>
+            <a href="#"><li class="flex-container"><h5>PODCAST</h5><hr></li></a>
+            <a href="#"><li class="flex-container"><h5>CLASSIFICHE</h5><hr></li></a>
+            <a href="#"><li class="flex-container"><h5>GENERI E MOOD</h5><hr></li></a>
+            <a href="#"><li class="flex-container"><h5>NUOVE USCITE</h5><hr></li></a>
+            <a href="#"><li class="flex-container"><h5>SCOPRI</h5><hr></li></a>
+          </ul>
+        </div> <!-- / navbar generi -->
+
+        <!-- RIGA RECENTLY PLAYED -->
+        <div class="row">
+          <h3>Recently played</h4> <!-- titolo riga -->
+          <div class="covers flex-container"> <!-- riga delle covers -->
+
+            <!-- cover 1 -->
+            <div class="col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/metal_lifting.jpg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Heavy Metal</h5>
+              </div>
+              <!-- sottotitolo -->
+              <div class="">
+                <p>Subtitle</p>
+              </div>
+            </div>
+
+            <!-- cover 2 -->
+            <div class="col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/stranger.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h5>
+              </div>
+              <!-- sottotitolo -->
+              <div class="">
+                <p>Kyle Dixon & Michael Stein</p>
+              </div>
+            </div>
+
+            <!-- cover 3 -->
+            <div class="col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/aquietplace.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>A quiet place</h5>
+              </div>
+              <!-- sottotitolo -->
+              <div class="">
+                <p>Subtitle</p>
+              </div>
+            </div>
+
+            <!-- cover 4 -->
+            <div class="col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/split.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Split</h5>
+              </div>
+              <!-- sottotitolo -->
+              <div class="">
+                <p>Subtitle</p>
+              </div>
+            </div>
+
+            <!-- cover 5 -->
+            <div class="col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/cure.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>A cure for wellnes</h5>
+              </div>
+              <!-- sottotitolo -->
+              <div class="">
+                <p>Subtitle</p>
+              </div>
+            </div>
+
+            <!-- cover 6 -->
+            <div class="col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/sinister.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Sinister</h5>
+              </div>
+              <!-- sottotitolo -->
+              <div class="">
+                <p>Subtitle</p>
+              </div>
+            </div>
+
+          </div> <!-- / riga delle covers -->
+
+        </div> <!-- / RIGA RECENTLY PLAYED -->
+
+        <!-- RIGA CREATO PER JOHN DOE -->
+        <div class="row">
+          <h3>Creato per John Doe</h4> <!-- titolo riga -->
+          <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+          <div class="jhon covers flex-container"> <!-- riga delle covers -->
+
+            <!-- cover 1 -->
+            <div class="col-john col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/radar.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Release Radar</h5>
+              </div>
+            </div>
+
+            <!-- cover 2 -->
+            <div class="col-john col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/mixdaily.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Daily Mix 1</h5>
+              </div>
+            </div>
+
+          </div> <!-- / riga delle covers -->
+
+        </div> <!-- / RIGA CREATO PER JOHN -->
+
+        <!-- PIU POPOLARI -->
+        <div class="row">
+          <h3>Artisti più popolari</h4> <!-- titolo riga -->
+          <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+          <div class="artisti covers flex-container"> <!-- riga delle covers -->
+
+            <!-- cover 1 -->
+            <div class="col-artisti col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/youg.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Gatsby</h5>
+              </div>
+            </div>
+
+            <!-- cover 2 -->
+            <div class="col-artisti col-covers flex-container">
+              <!-- immagine -->
+              <div class="img">
+                <img src="img/einaudi.jpeg" alt="">
+                <div class="img-layover"></div>
+                <i class="fas fa-play"></i>
+              </div>
+              <!-- titolo -->
+              <div class="">
+                <h5>Enaudi</h5>
+              </div>
+            </div>
+
+          </div> <!-- / riga delle covers -->
+
+        </div> <!-- / RIGA CREATO PER JOHN -->
+
+      </div> <!-- / body of main -->
+    </main>
+
+    <footer class="flex-container">
+
+      <!-- song -->
+      <div class="left f-col flex-container">
+        <img src="img/sinister.jpeg" alt="sinister cover">
+        <div class="features-brano">
+          <h5>Sinister</h5>
+          <p>Brano Nome</p>
+        </div>
+        <!-- icone love+cartella -->
+        <div class="icone">
+          <i class="far fa-heart"></i>
+          <i class="far fa-folder"></i>
+        </div>
+      </div>
+
+      <!-- player -->
+      <div class="center f-col">
+        <!-- <div class="centratura"> -->
+          <div class="riga-btns flex-container">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-play"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo-alt"></i>
+          </div>
+          <div class="contatore flex-container">
+            <div class="">
+              <h6>0:25</h6>
+            </div>
+            <div class="progressbar">
+              <div class="progresinside"></div>
+            </div>
+            <div class="">
+              <h6>4:35</h6>
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+
+      <!-- sound -->
+      <div class="right f-col flex-container">
+        <i class="fas fa-list-ul"></i>
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-volume-up"></i>
+        <div class="progressbar">
+          <div class="progresinside"></div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,166 @@
+/* GENERALE -------------------------------------- */
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 90px;
+  background-color: #282828;
+  align-items: center;
+  font-family: inherit;
+}
+footer h5{
+  font-weight: 500;
+}
+
+.f-col{
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/* ITEM LEFT ------------------------------------------ */
+
+.features-brano{
+  align-self: center;
+  flex-basis: 25%;
+}
+
+.left img{
+  max-width: 50px;
+  max-height: 50px;
+  padding-left: 20px
+}
+.left p{
+  opacity: 0.70;
+  font-size: x-small;
+}
+.left .far{
+  opacity: 0.70;
+}
+.left .far:hover{
+  opacity: 1;
+}
+
+.left *{
+  padding: 0px 3px;
+}
+
+
+/* ITEM CENTER ------------------------------------------ */
+
+.center{
+  flex-grow: 2;
+  justify-content: center;
+}
+.riga-btns, .contatore{
+  justify-content: center;
+}
+
+.riga-btns .fas{
+  padding: 10px 20px;
+  opacity: 0.7;
+}
+.riga-btns .fas:hover{
+  opacity: 1;
+}
+
+.fa-play{
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 10px 10px 10px 14px !important;
+  margin: 0px 10px;
+}
+.fa-play:hover{
+  transform: scale(1.06);
+  transition-property: all;
+}
+.contatore{
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.progressbar{
+  background-color: grey;
+  border: solid 1px grey;
+  border-radius: 500px;
+  height:5px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  opacity: 0.8;
+}
+.center .progressbar{
+  flex-basis: 60%
+}
+.center .progresinside{
+  background: lightgrey;
+  border-radius: 500px;
+  width: 20%;
+  height: 100%
+}
+
+
+/* ITEM RIGHT ------------------------------------------ */
+
+.right{
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.right .fas{
+  flex-basis: 8%;
+  text-align: right;
+  padding: 0px 3px;
+}
+
+.right .progressbar{
+  flex-basis: 150px;
+  margin: 10px;
+}
+.right .progresinside{
+  background: lightgrey;
+  border-radius: 500px;
+  width: 20%;
+  height: 100%
+}
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+  /* .riga-btns .fas{
+    padding: 10px 5px;
+  }
+  .left img{
+    width: 20px;
+    height: 20px;
+  } */
+  .f-col{
+    transform: scale(0.8,0.8);
+  }
+  .left img{
+    max-width: 30px;
+    max-height: 30px;
+    padding-left: 10px
+  }
+  .riga-btns .fas{
+    padding: 10px 10px;
+    opacity: 0.7;
+  }
+
+}

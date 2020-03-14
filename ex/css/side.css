@@ -1,0 +1,184 @@
+/* GENERAL -------------------------------------- */
+.navbar{
+  position: fixed;
+  width: 230px;
+  flex-wrap: wrap;
+  height: calc(100% - 90px);
+  background: rgba(0,0,0,.8);
+}
+
+/* GENERAL LG -------------------------------------- */
+.colonna-lg{
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.colonna-up, .colonna-down{
+  width: 100%;
+}
+.colonna-up, .colonna-down{
+  flex-wrap: wrap;
+}
+.menu-lg{
+  width: 100%;
+  margin: 10px 0px;
+}
+.logo-lg{
+  width: 130px;
+  margin: 10px 0px 10px 20px;
+}
+.bottoni-menu-nav{
+  padding: 6px 0px;
+  align-items: center;
+  opacity: 0.8;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.bottoni-menu-nav:hover{
+  color: white;
+  opacity: 1;
+}
+.bottoni-menu-nav:focus{
+  border-left: 2px yellow solid;
+  opacity: 1;
+  outline: none;
+}
+.bottoni-menu-nav .icona{
+  width: 24px;
+  height: 24px;
+  margin-right:16px;
+}
+.menu-lg h4{
+  font-size: 14px;
+}
+
+.playlist-lg{
+  width: 100%;
+}
+.titolo-playlist{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+#plus{
+  width: auto;
+  height: auto;
+  background: lightgrey;
+  margin-right: 16px;
+  padding: 6px;
+}
+
+.playlist-list{
+  overflow: scroll;
+  max-height: 20vh;
+}
+.playlist-list::-webkit-scrollbar {
+display: none;
+}
+
+.installa-app{
+  font-weight: normal;
+  font-size: 12px;
+  border-bottom: 0.5px solid lightgrey;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  width: calc(100% - 40px)
+}
+#down{
+  width: 12px;
+  height: 12px;
+  margin-right: 16px;
+  padding: 1px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.icona-account{
+  background: lightgray;
+  border-radius: 100%;
+
+}
+.riga-account{
+  padding: 10px 20px;
+}
+
+
+
+
+/* GENERAL XS -------------------------------------- */
+.colonna-xs{
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.bottoni-menu-nav-xs .icona{
+  padding: 4px 0;
+  width: 24px;
+  height: 24px;
+}
+.logo-xs{
+  margin: 5px 0;
+}
+.bottoni-menu-nav-xs {
+    justify-content: center;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.bottoni-menu-nav-xs .icona-acc-xs{
+  padding: 0px;
+  margin: 20px 0px 10px 0px;
+}
+#down-xs{
+  width: 10px;
+  height: 10px;
+  margin-right:0px;
+  padding: 2px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+/* MAXI HEIGHT 350PX -------------------------------- */
+@media screen and (max-height: 350px){
+ .bottom{
+   display: none;
+ }
+
+}
+
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+.colonna-xs {
+  display: none;
+}
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+  .colonna-xs {
+    display: none;
+  }
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .colonna-xs {
+    display: none;
+  }
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+.colonna-lg{
+    display: none;
+  }
+  .navbar{
+    width: 50px;
+  }
+
+}
