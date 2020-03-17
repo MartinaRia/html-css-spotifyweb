@@ -1,31 +1,34 @@
-/* GENERAL LG -------------------------------------- */
+/* GENERAL -------------------------------------- */
 .navbar{
   position: fixed;
   width: 230px;
   flex-wrap: wrap;
-  height: 100vh;
+  height: calc(100% - 90px);
   background: rgba(0,0,0,.8);
 }
 
-.logo-lg{
-  width: 131px !important;
-  height: 40px;
-  margin: 10px 0px 10px 20px;
+/* GENERAL LG -------------------------------------- */
+.colonna-lg{
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.colonna-up, .colonna-down{
+  width: 100%;
+}
+.colonna-up, .colonna-down{
+  flex-wrap: wrap;
 }
 .menu-lg{
-  margin: 20px 0px;
-}
-.navbar .colonna{
-  height: calc(100% - 90px);
   width: 100%;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+  margin: 10px 0px;
 }
-.colonna-lg *{
-  width: 100%;
-  box-sizing: border-box;
+.logo-lg{
+  width: 130px;
+  margin: 10px 0px 10px 20px;
 }
-
 .bottoni-menu-nav{
   padding: 6px 0px;
   align-items: center;
@@ -42,7 +45,6 @@
   opacity: 1;
   outline: none;
 }
-
 .bottoni-menu-nav .icona{
   width: 24px;
   height: 24px;
@@ -52,27 +54,19 @@
   font-size: 14px;
 }
 
+.playlist-lg{
+  width: 100%;
+}
 .titolo-playlist{
   padding-left: 20px;
+  padding-bottom: 10px;
 }
-
 #plus{
   width: auto;
   height: auto;
   background: lightgrey;
   margin-right: 16px;
   padding: 6px;
-}
-#down{
-  width: 12px;
-  height: 12px;
-  margin-right: 16px;
-  padding: 1px;
-  border-radius: 100%;
-  border: 1px solid white;
-}
-.playlist{
-  flex-wrap: wrap;
 }
 
 .playlist-list{
@@ -82,6 +76,7 @@
 .playlist-list::-webkit-scrollbar {
 display: none;
 }
+
 .installa-app{
   font-weight: normal;
   font-size: 12px;
@@ -90,25 +85,32 @@ display: none;
   padding: 10px 0px;
   width: calc(100% - 40px)
 }
+#down{
+  width: 12px;
+  height: 12px;
+  margin-right: 16px;
+  padding: 1px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
 
 .icona-account{
   background: lightgray;
   border-radius: 100%;
 
 }
-
 .riga-account{
   padding: 10px 20px;
 }
 
-.account{
-  align-self: flex-end;
-}
+
+
 
 /* GENERAL XS -------------------------------------- */
 .colonna-xs{
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 .bottoni-menu-nav-xs .icona{
   padding: 4px 0;
